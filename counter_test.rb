@@ -6,7 +6,9 @@ class TestCounter < Minitest::Test
 		assert_equal(1, 1)
 	end
 
-	
+	def test_assert_that_counter_ar_is_an_array
+		assert_equal(Array, counterArClass())
+	end	
 
 
 end
