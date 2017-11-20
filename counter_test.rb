@@ -14,4 +14,8 @@ class TestCounter < Minitest::Test
 		assert_equal(Integer, counterClass(1))
 	end
 
+	def test_assert_that_counter_ar_contains_nums_divisible_by_counter
+		assert_equal(true, counting(5))
+	end
+
 end
