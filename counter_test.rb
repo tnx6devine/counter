@@ -10,5 +10,8 @@ class TestCounter < Minitest::Test
 		assert_equal(Array, counterArClass())
 	end	
 
+	def test_assert_that_counter_is_an_integer
+		assert_equal(Integer, counterClass())
+	end
 
 end
