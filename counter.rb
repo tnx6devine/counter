@@ -1,5 +1,9 @@
-$counter = []
+$counterAr = []
 
 def counterArClass()
-	$counter.class
+	$counterAr.class
+end
+
+def counterClass(test_number)
+	test_number.class
 end

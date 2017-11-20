@@ -11,7 +11,7 @@ class TestCounter < Minitest::Test
 	end	
 
 	def test_assert_that_counter_is_an_integer
-		assert_equal(Integer, counterClass())
+		assert_equal(Integer, counterClass(1))
 	end
 
 end
