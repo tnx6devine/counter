@@ -15,7 +15,7 @@ def counting(test_number)
 		counter += test_number
 	end
 	puts $counterAr
-	if $counterAr.last % 5 == 0
+	if $counterAr.last % test_number == 0
 		true
 	else
 		false
