@@ -22,4 +22,8 @@ class TestCounter < Minitest::Test
 		assert_equal(true, counting(2))
 	end
 
+	def test_assert_that_wombat_is_rejected
+		assert_equal(false, counting("wombat"))
+	end
+
 end
